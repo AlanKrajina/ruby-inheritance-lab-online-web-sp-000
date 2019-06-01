@@ -1,6 +1,6 @@
 class Student < User
-  
-  def first_name=
-    "Steve"
+  attr_reader :name
+  def first_name=(name)
+    @name = "Steve"
   end
 end
