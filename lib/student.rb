@@ -5,4 +5,7 @@ class Student < User
     knowledge = []
   end
   
+  def new
+    knowledge = []
+  end
 end
